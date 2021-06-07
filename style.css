@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: #000;
+    font-family: fantasy;
+}
+
+div {
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+}
+
+img {
+    width: 100%;
+    filter: contrast(60%);
+}
+
+p {
+    line-height: 1;
+    text-align: justify;
+    padding: 0.18vw;
+    margin-top: 0;
+    font-size: 1rem;
+    color: #fff;
+    background: #000;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
